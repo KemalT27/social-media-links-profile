@@ -1,0 +1,125 @@
+*{
+    margin: 0;
+    padding: 0;
+    color: white;
+    text-align: center;
+    max-width: 100%;
+    max-height: 100%;
+}
+img{
+    max-width: 100%;
+    max-height: 100%;
+}
+.text{
+    font-size: 14px;
+    font-family: system-ui, -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Oxygen, Ubuntu, Cantarell, 'Open Sans', 'Helvetica Neue', sans-serif;
+}
+.button{
+    border: 1px solid 333333;
+    background-color: #333333;
+    margin: auto;
+    
+    margin-bottom: 5px;
+    width: 75%;
+    border-radius: 5px;
+    height: 35px;
+    margin-top: 5px;
+    
+    
+        
+}
+.button:hover{
+    background-color: greenyellow;
+}
+
+
+
+body{
+    background-color: #141414;
+    
+    width: 100%;
+    height: 100%;
+    position: relative;
+}
+.main{
+    border: 1px #1F1F1F solid;
+    border-radius: 10px;
+    background-color: #1F1F1F;
+    display: flex;
+    flex-direction: column;
+    margin: auto;
+    align-items: center;
+    width: 20%;
+    overflow: hidden;
+    height: 500px;
+    position: fixed;
+    top: 50%;
+    bottom: 50%;
+    right: 40%;
+    
+   
+    
+}
+/* photo */
+ .avatar{
+    height: 75px;
+    margin: 20px;
+    
+}
+ .avatar img{
+    border: 1px solid #1F1F1F;
+    border-radius: 100%;
+
+}
+/* texts */
+ .texts{
+  display: flex;
+  flex-direction: column;
+}
+ .texts h1{
+    color: white;
+    font-weight: 700;
+    letter-spacing: 1px;
+    font-size:large;
+    
+}
+.texts h2{
+    color: greenyellow;
+    font-size: xx-small;
+    font-weight: 700;
+    letter-spacing: 1px;
+    margin-top: 10px;
+    
+}
+.texts h3{
+    font-size: 10px;
+    font-weight: 200;
+    letter-spacing: 1px;
+    margin-top: 30px;
+    
+}
+/* links */
+.links {
+    
+    font-family: system-ui, -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Oxygen, Ubuntu, Cantarell, 'Open Sans', 'Helvetica Neue', sans-serif;
+    display: flex;
+    flex-direction: column;
+    height: 20%;
+    width: 20%;
+    justify-content: space-between;
+    width: 100%;
+    height: auto;
+    letter-spacing: 0.5px;
+    margin-top: 10px;
+    
+    
+    
+}
+.links h4{
+    font-weight: 400;
+    
+    font-size: x-small;
+    margin-top: 8.5px;
+    
+    
+}
